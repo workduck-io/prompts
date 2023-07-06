@@ -1,6 +1,2 @@
-# repo2docker configuration
-
 postBuild:
-  - pip install python-dotenv
-  - echo "python -m dotenv -f .env your_script.py" > /usr/local/bin/start-notebook.sh
-  - chmod +x /usr/local/bin/start-notebook.sh
+  - pip install openai python-dotenv
