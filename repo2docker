@@ -1,0 +1,3 @@
+postBuild:
+  - pip install python-dotenv
+  - echo "source .env" >> /etc/bash.bashrc
