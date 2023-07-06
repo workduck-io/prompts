@@ -1,2 +1,2 @@
 postBuild:
-  - pip install openai python-dotenv
+  - pip install python-dotenv
